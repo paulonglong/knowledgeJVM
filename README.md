@@ -1,5 +1,4 @@
 # 深入Java虚拟机
-JVM的整体结构图：
 ![jvm整体结构](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/images/jvm整体结构.png)
 
 ## 类加载子系统
