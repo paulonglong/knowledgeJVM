@@ -14,7 +14,7 @@
 
 ​    Java虚拟机不和包括Java在内的任何语言绑定，它只与“Class文件”这种特定的二进制文件格式所关联。
 
-![java虚拟机跨语言的平台](https://github.com/jackhusky/jvm/blob/main/docs/images/java虚拟机跨语言的平台.png)
+![java虚拟机跨语言的平台](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/images/java虚拟机跨语言的平台.png)
 
 3. 想要让一个Java程序正确地运行在JVM中，Java源码就必须要被编译为符合JVM规范的字节码。
 
@@ -22,7 +22,7 @@
 - javac是一种能够将Java源码编译为字节码的前端编译器。
 - javac编译器在将Java源码编译为一个有效的字节码文件过程中经历了4个步骤，分别是**词法解析、语法解析、语义解析以及生成字节码**。
 
-![源码编译](https://github.com/jackhusky/jvm/blob/main/docs/images/源码编译.png)
+![源码编译](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/images/源码编译.png)
 
 Oracle的JDK软件包括两部分内容：
 
@@ -216,9 +216,9 @@ com/demo/test/Demo这个就是类的全限定名。为了使连续的多个全�
 - 符号引用：符号引用以一组符号来描述所引用的目标，符号可以是任何形式的字面量，只要使用时能无歧义地定位到目标即可。符号引用与虚拟机实现的内存布局无关，引用的目标并不一定已经加载到了内存中。
 - 直接引用：直接引用可以是直接指向目标的指针、相对偏移量或是一个能间接定位到目标的句柄。直接引用是与虚拟机实现的内存布局相关的，同一个符号引用在不同虚拟机实例上翻译出来的直接引用一般不会相同。如果有了直接引用，那说明引用的目标必定存在于内存中了。
 
-![常量类型和结构细节1](https://github.com/jackhusky/jvm/blob/main/docs/images/常量类型和结构细节1.png)
+![常量类型和结构细节1](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/images/常量类型和结构细节1.png)
 
-![常量类型和结构细节2](https://github.com/jackhusky/jvm/blob/main/docs/images/常量类型和结构细节2.png)
+![常量类型和结构细节2](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/images/常量类型和结构细节2.png)
 
 ### 访问标识（access_flag、访问标志、访问标记）
 
@@ -410,7 +410,7 @@ attributes_count的值表示当前class文件属性表的成员个数，属性�
 
 属性表实际上可以有很多类型，上面看到的Code属性是其中一种，[Java8](https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-4.html#jvms-4.7)定义了23种属性。
 
-![字节码解析](https://github.com/jackhusky/jvm/blob/main/docs/images/字节码解析.png)
+![字节码解析](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/images/字节码解析.png)
 
 ## 使用javap指令解析Class文件
 
@@ -445,4 +445,3 @@ javap -c xxx.class
 # 输出附加信息(包括行号、本地变量表、反汇编等详细信息)
 javap -v/-verbose xxx.class
 ```
-
