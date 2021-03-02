@@ -137,7 +137,7 @@ MAT的直方图和jmap的-histo子命令一样，都能够展示各个类的实�
 
 下图显示了一个简单的对象引用关系图，对象A引用了C和D，对象B引用了C和E。那么对象A的浅堆大小只是A本身，不含C和D，而A的实际大小为A、C、D三者之和。而A的深堆大小为A和D之和，由于对象C还可以通过对象B访问到，因此不在对象A的深堆范围内。
 
-![深堆和浅堆](https://github.com/jackhusky/jvm/blob/main/docs/images/深堆和浅堆.png)
+![深堆和浅堆](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/images/深堆和浅堆.png)
 
 #### 支配树
 
@@ -151,7 +151,7 @@ MAT提供了一个称为支配树的对象图。支配树体现了对象实例�
 
 如下图所示：左图表示对象引用图，右图表示左图对应的支配树。
 
-![支配树](https://github.com/jackhusky/jvm/blob/main/docs/images/支配树.png)
+![支配树](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/images/支配树.png)
 
 ## 再谈内存泄漏
 
@@ -382,11 +382,11 @@ public class Stack {
 上述程序并没有明显的错误，但是这段程序有一个内存泄漏，随着GC活动的增加，或者内存占用的不断增加，程序性能的降低就会表现出来，严重时可导致内存泄漏，但是这种失败情况相对较少。代码的主要问题在pop函数，下面通过这张图示展现
 假设这个栈一直增长，增长后如下图所示
 
-![内存泄漏案例图1](https://github.com/jackhusky/jvm/blob/main/docs/images/内存泄漏案例图1.jpg)
+![内存泄漏案例图1](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/images/内存泄漏案例图1.jpg)
 
 当进行大量的pop操作时，由于引用未进行置空，gc是不会释放的，如下图所示
 
-![内存泄漏案例图2](https://github.com/jackhusky/jvm/blob/main/docs/images/内存泄漏案例图2.jpg)
+![内存泄漏案例图2](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/images/内存泄漏案例图2.jpg)
 
 解决方法：
 
@@ -402,7 +402,7 @@ public Object pop() {
 
 一旦引用过期，清空这些引用，将引用置空。
 
-![内存泄漏案例图3](https://github.com/jackhusky/jvm/blob/main/docs/images/内存泄漏案例图3.jpg)
+![内存泄漏案例图3](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/images/内存泄漏案例图3.jpg)
 
 ## 支持使用OQL语言查询对象信息
 
@@ -551,18 +551,3 @@ Arthas是Alibaba开元的Java诊断工具，在线排查问题，无需重启；
 
 
 ## TProfiler
-
-### 
-
-
-
-
-
-
-
-
-
-
-
-
-
