@@ -164,11 +164,11 @@ public static void main(String[] args) {
 
 JDK6：
 
-![jdk6intern()](https://github.com/jackhusky/jvm/blob/main/docs/images/jdk6intern().png)
+![jdk6intern()](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/images/jdk6intern().png)
 
 JDK7/8：
 
-![jdk7intern()](https://github.com/jackhusky/jvm/blob/main/docs/images/jdk7intern().png)
+![jdk7intern()](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/images/jdk7intern().png)
 
 总结intern()的使用
 
@@ -181,11 +181,11 @@ JDK7/8：
 
 练习：
 
-![练习1intern](https://github.com/jackhusky/jvm/blob/main/docs/images/练习1intern.png)
+![练习1intern](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/images/练习1intern.png)
 
-![练习1jdk7intern](https://github.com/jackhusky/jvm/blob/main/docs/images/练习1jdk7intern.png)
+![练习1jdk7intern](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/images/练习1jdk7intern.png)
 
-![练习1jdk8intern变形](https://github.com/jackhusky/jvm/blob/main/docs/images/练习1jdk8intern变形.png)
+![练习1jdk8intern变形](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/images/练习1jdk8intern变形.png)
 
 ```java
     @Test
@@ -221,35 +221,3 @@ Java堆中存活的数据集合差不多25%是`String`对象，这里面差不�
   - `UseStringDeduplication`：开启String去重，默认不开启。
   - `PrintStringDeduplicationStatistics`：打印详细的去重统计信息。
   - `StringDeduplicationAgeThreshold`：达到这个年龄的`String`对象被认为是去重的候选对象。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
