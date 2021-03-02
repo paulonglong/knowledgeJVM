@@ -7,7 +7,7 @@
 1. Java语言：跨平台的语言（write once，run anywhere）
 
 - 当Java源代码成功编译成字节码后，如果想在不同的平台上面运行，则无需再次编译。
-- 这个优势不再那么吸引人了。Python、PHP、Perl、Ruby、Lisp等有强大的解释器。
+- 这个优势不再那么吸引人了。Python、PHP、Perl、Ruby等已有强大的解释器。
 - 跨平台似乎已经快成为一门语言必选的特性。
 
 2. Java虚拟机：跨语言的平台
