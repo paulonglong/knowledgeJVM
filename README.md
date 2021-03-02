@@ -3,7 +3,7 @@
 
 ![jvm整体结构](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/images/jvm整体结构.png)
 
-## 内存与垃圾回收
+## 内存结构与垃圾回收
 
 - [类加载子系统](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/内存与垃圾回收/类加载子系统.md)
 
