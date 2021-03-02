@@ -11,7 +11,6 @@
 ## 运行时数据区
 - [运行时数据区详解](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/内存与垃圾回收/运行时数据区.md)
 - [对象的运行时管理](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/内存与垃圾回收/对象的实例化内存布局访问定位.md)
-- [直接内存](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/内存与垃圾回收/直接内存.md)
 - [String类](https://github.com/paulonglong/knowledgeJVM/blob/master/docs/内存与垃圾回收/String类.md)
 
 ## 垃圾回收
