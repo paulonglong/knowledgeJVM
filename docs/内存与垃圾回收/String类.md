@@ -1,4 +1,4 @@
-# String类
+# String类运行时管理
 
 ## String的基本特性
 
